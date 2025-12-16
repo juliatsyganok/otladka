@@ -171,7 +171,7 @@ for item in to_remove:
 
 ### Ошибка 5: Использование изменяемого значения по умолчанию
 
-**Место**: buggy/ls_with_bugs.py:52
+**Место**: bugs/1.py:52
 
 **Симптом**: 
 - Функция count_files_by_type вызывается дважды
@@ -200,6 +200,10 @@ for item in to_remove:
 7. Результат: stats1 is stats2 = True
 
 **Скриншоты**:
+<img width="508" height="55" alt="image" src="https://github.com/user-attachments/assets/3a579adc-4971-4056-87f9-84ae699e666a" />
+<img width="2229" height="680" alt="image" src="https://github.com/user-attachments/assets/079fd9f7-309e-44fe-97fb-30adc94ed494" />
+<img width="2195" height="617" alt="image" src="https://github.com/user-attachments/assets/039cf912-2617-4a46-80ed-3d560e7005ae" />
+
 
 **Причина**: 
 - Значения по умолчанию в Python вычисляются один раз при определении функции
